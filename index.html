@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>project 1 - bootstrap</title>
+    <title>project 2 - bootstrap</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -13,8 +13,66 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- START HERE -->
-
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+      <div class="container">
+        <a href="#home" class="navbar-brand">
+          <img src="img/mlogo.png" width="50px" height="50px" alt="logo" />
+          <h3 class="d-inline align-middle">Max Book</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse ">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Meet The Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">
+                Do What You Dream Of...
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laboriosam quia modi, consequatur est ipsa earum?
+              </p>
+              <a href="" class="btn btn-outline-secondary btn-lg text-white"
+                ><i class="fas fa-arrow-right"></i> Read More</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="img/book.png"
+                alt=""
+                class="img-fluid d-none d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
